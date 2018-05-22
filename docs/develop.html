@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>納品リスト｜MUSUBii Delivery List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanjp_s.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/musubii@6.1.0/docs/css/musubii.min.css">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 1em 1em 4em;
+        background-color: #eceeef;
+        font-family: YakuHanJPs, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans Japanese", Meiryo, "Yu Gothic Medium", sans-serif
+      }
+      .card {
+        min-width: 50vw;
+        background-color: #ffffff;
+        border-radius: 0.25em;
+        box-shadow: 0 48px 96px rgba(40, 57, 62, 0.07), 0 16px 32px rgba(40, 57, 62, 0.07), 0 4px 16px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+      .card > .title {
+        padding: 1em 1em 0.125em;
+        background-color: #1cb4c7;
+        color: #ffffff;
+        font-weight: 700;
+      }
+      .card > .subtitle {
+        padding: 0.125em 1em 1em;
+        background-color: #1cb4c7;
+        color: #ffffff;
+      }
+      .card > .inner {
+        padding: 1em;
+      }
+      .list {
+        line-height: 2;
+      }
+      .list > .item > .list {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="title"><span>納品リスト</span></h1>
+      <h2 class="subtitle"><span>開発プロジェクト 2018年5月〜8月制作分</span></h2>
+      <div class="inner">
+        <ul class="list is-circle">
+          <li class="item"><a class="text is-link-reverse is-primary" href="#"><span>Home</span></a></li>
+          <li class="item"><a class="text is-link-reverse is-primary" href="#"><span>Page 1</span></a></li>
+          <li class="item"><a class="text is-link-reverse is-primary" href="#"><span>Page 2</span></a></li>
+          <li class="item"><a class="text is-link-reverse is-primary" href="#"><span>Page 3</span></a></li>
+          <li class="item"><a class="text is-link-reverse is-primary" href="#"><span>Page 4</span></a></li>
+        </ul>
+        <div class="btns is-right is-xs"><a class="btn is-outline" href="https://github.com/qrac/musubii-delivery-list">GitHub Code</a></div>
+      </div>
+    </div>
+  </body>
+</html>
