@@ -119,5 +119,6 @@ html(lang="ja")
               li.item
                 a.text.is-link-reverse.is-primary(href=val.url)
                   span= val.title
-        .btns.is-right.is-xs
-          a.btn.is-outline(href=project.github_url) GitHub Code
+        if project.github_url
+          .btns.is-right.is-xs
+            a.btn.is-outline(href=project.github_url) GitHub Code
